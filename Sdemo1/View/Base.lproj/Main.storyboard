@@ -18,10 +18,13 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xhM-V0-Nzw" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="20" y="44" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xhM-V0-Nzw" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="20" y="44" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5yF-qn-b0Z"/>
+                                    <constraint firstAttribute="width" secondItem="xhM-V0-Nzw" secondAttribute="height" multiplier="6:8" id="s0G-v7-4mH"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -30,10 +33,13 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cq9-Nw-HLn" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="154" y="62" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cq9-Nw-HLn" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="154" y="62" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="5ca-uR-hG2"/>
+                                    <constraint firstAttribute="width" secondItem="Cq9-Nw-HLn" secondAttribute="height" multiplier="6:8" id="uAY-11-6Bl"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -42,10 +48,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcz-Nu-tLs" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="287" y="44" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xcz-Nu-tLs" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="287" y="44" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xcz-Nu-tLs" secondAttribute="height" multiplier="3:4" id="S6w-4S-Isi"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -54,10 +62,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7iI-CC-xmQ" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="32" y="233" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="7iI-CC-xmQ" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="32" y="233" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="7iI-CC-xmQ" secondAttribute="height" multiplier="3:4" id="HGz-UG-quQ"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -66,10 +76,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcS-ET-uSI" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="167" y="239" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zcS-ET-uSI" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="167" y="239" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="zcS-ET-uSI" secondAttribute="height" multiplier="3:4" id="8ie-F4-PIK"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -78,10 +90,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-mA-0w7" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="282" y="254" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wbR-mA-0w7" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="282" y="254" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="wbR-mA-0w7" secondAttribute="height" multiplier="3:4" id="d0L-B8-lPM"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -90,10 +104,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcj-8c-UdU" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="42" y="428" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rcj-8c-UdU" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="42" y="428" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="rcj-8c-UdU" secondAttribute="height" multiplier="3:4" id="F4d-Vv-6CT"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -102,10 +118,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ot4-pR-lbs" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="167" y="416" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ot4-pR-lbs" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="167" y="416" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Ot4-pR-lbs" secondAttribute="height" multiplier="3:4" id="f3K-bl-acN"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -114,10 +132,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3V-7r-hXP" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="282" y="442" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="w3V-7r-hXP" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="282" y="442" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="w3V-7r-hXP" secondAttribute="height" multiplier="3:4" id="wdo-RU-9yr"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -126,10 +146,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bf6-QJ-qWr" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="54" y="624" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Bf6-QJ-qWr" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="54" y="624" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Bf6-QJ-qWr" secondAttribute="height" multiplier="3:4" id="0sc-LE-w18"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -138,10 +160,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JIh-35-2Xd" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="167" y="609" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JIh-35-2Xd" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="167" y="609" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="JIh-35-2Xd" secondAttribute="height" multiplier="3:4" id="bAq-cL-BTX"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -150,10 +174,12 @@
                                     <userDefinedRuntimeAttribute type="boolean" keyPath="isFaceUp" value="YES"/>
                                 </userDefinedRuntimeAttributes>
                             </view>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kYy-ad-5ta" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
-                                <rect key="frame" x="282" y="641" width="107" height="169"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kYy-ad-5ta" customClass="PlayingCardView" customModule="Sdemo1" customModuleProvider="target">
+                                <rect key="frame" x="282" y="641" width="75" height="100"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="kYy-ad-5ta" secondAttribute="height" multiplier="3:4" id="RE4-Qh-zqf"/>
+                                </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="rank">
                                         <integer key="value" value="12"/>
@@ -186,11 +212,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <tapGestureRecognizer id="ocE-Q1-xOm">
-                    <connections>
-                        <action selector="flipCard:" destination="BYZ-38-t0r" id="QPn-Iz-yjo"/>
-                    </connections>
-                </tapGestureRecognizer>
+                <tapGestureRecognizer id="ocE-Q1-xOm"/>
             </objects>
             <point key="canvasLocation" x="131.8840579710145" y="73.660714285714278"/>
         </scene>
